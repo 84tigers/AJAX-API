@@ -18,7 +18,7 @@ $(document).ready(() => {
     $.get("https://www.reddit.com/r/vinylcollectors.json").then((response) => {
         const post = response.data.children;
         console.log(post);
-        for (let i = 0; i < post.length; i++) { 
+        for (let i = 0; i < 10; i++) { 
             $("body").append(`
             <section class="post-container">
                 <section class="record">

@@ -1,0 +1,72 @@
+body {
+    /* background-image: url("images/wood-tile.jpg");
+    background-repeat: repeat; */
+}
+
+/* font-family: 'Arvo', serif;
+font-family: 'Oswald', sans-serif; */
+
+.post-container {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 90vw;
+    /* height: 85vw; */
+    /* text-align: center; */
+    background-color: #B29D00;
+    padding: 2em;
+    border-top-left-radius: 75px;
+
+    
+}
+
+.record {
+    background-image: url("images/record.png");
+    /* border-image-repeat: stretch; */
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+
+.score {
+    position: relative;
+    left: 15%;
+    bottom: 50%;
+    font-size: 3em;
+    font-family: 'Arvo', serif;
+    color: #741304;
+    -webkit-text-fill-color: wheat; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #741304;
+    /* flex: 3; */
+}
+
+.title {
+    /* flex: 1; */
+    font-size: 4em;
+    /* width: 60%; */
+    font-family: 'Arvo', serif;
+    font-style: oblique;
+    font-weight: bold;
+    margin-left: 2em;
+    margin-top: -0.1em;
+    margin-bottom: 0;
+    /* text-align: end; */
+}
+
+a {
+    /* margin: 0; */
+    padding: 0;
+    color: #741304;
+}
+
+.user-post {
+    background-image: linear-gradient(#B29D00, #B2B080);
+}
+
+.author {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    color: #B2B080;
+    margin-top: 0;
+    margin-left: 5em;
+}

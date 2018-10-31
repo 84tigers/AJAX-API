@@ -21,13 +21,15 @@ $(document).ready(() => {
         for (let i = 0; i < post.length; i++) { 
             $("body").append(`
             <section class="post-container">
+                <section class="record">
+                    <p class="score">${post[i].data.score}</p>
+                </section>
                 <a href="${post[i].data.url}">
                     <p class="title">${post[i].data.title}</p>
                 </a>
                 <p class="author">${post[i].data.author_fullname}</p>
                 <p class="user-post">${post[i].data.selftext}</p>
-                <p class="comment-count">${post[i].data.num_comments}</p>
-                <p class="score">${post[i].data.score}</p>
+                <p class="comment-count">${post[i].data.num_comments} comments</p>
             </section>
             `);
         }
